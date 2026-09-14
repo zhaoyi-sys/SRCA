@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score, f1_score, precision_recall_fscore_su
 UNKNOWN_LABEL = "__unknown__"
 
 
-def euclidean_knn_distance(query: np.ndarray, train: np.ndarray, k: int = 1, leave_one_out: bool = False) -> np.ndarray:
+def euclidean_knn_distance(query: np.ndarray, train: np.ndarray, k: int = 3, leave_one_out: bool = False) -> np.ndarray:
     if k <= 0:
         raise ValueError("k must be positive.")
     q = query.astype(np.float64)

@@ -1,4 +1,4 @@
-# MiniROCKET + Ridge + SpHOR Raw-h Rejection
+# OPEN-SET INDUSTRIAL LOAD RECOGNITION USING SPHERICAL REPRESENTATION AND CLASS-ADAPTIVE KNN REJECTION
 
 This directory is the clean implementation of the selected open-set NILM method.
 
